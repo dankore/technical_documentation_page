@@ -4,6 +4,7 @@
 
 <head> 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="styles.css" type="text/css" />
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
@@ -13,21 +14,47 @@
 
 <body> 
 <nav id="navbar">
-  <header>This describes the name of the technical document</header>
-    <a  class=" nav-link" href="#1st_section">1st section</a>
-    <a  class=" nav-link" href="#2nd_section">2nd section</a>
-    <a  class=" nav-link" href="#3rd_section">3rd section</a>
-    <a  class=" nav-link" href="#4th_section">4th section</a>
-    <a  class=" nav-link" href="#5th_section">5th section</a>
+    <header id="html-header">HTML Basics</header>
+    <ul>
+      <a  class="nav-link" href="#1st_section" rel="internal"><li>1st section</li></a>
+      <a  class="nav-link" href="#2nd_section" rel="internal"><li>2nd section</li></a>
+      <a  class="nav-link" href="#3rd_section" rel="internal"><li>3rd section</li></a>
+      <a  class="nav-link" href="#4th_section" rel="internal"><li>4th section</li></a>
+      <a  class="nav-link" href="#5th_section" rel="internal"><li>5th section</li></a>
+    </ul>  
 </nav>
 
 <main id="main-doc">
 <section  id="1st_section" class="main-section">
   <header>1st Section</header>
-  <p>1st p</p>
+  <article>
+  <p>All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+  The HTML document itself begins with &lthtml&gt  and ends with &lt/html&gt.
+  The visible part of the HTML document is between &ltbody&gt  and &lt/body&gt<sup>1</sup>. </p>
   <p>2nd p</p>
-  <code>1st code element</code>
+  <code> 
+     <blockquote> 
+     &lt!DOCTYPE html&gt
+     <br>
+      &lthtml&gt
+      <br>
+      &ltbody&gt
+      <br>
+        <span><</span>h1<span>></span>
+        My First Heading
+        <span><</span><span>/h1></span>
+        <br>
+        <span><</span>p<span>></span>
+        My first paragraph
+        <span><</span><span>/p></span>
+        <br>
+       &lt/body&gt
+     <br>
+     &lt/html&gt
+    </blockquote> 
+  </code>
   <li>1st list element</li>
+  </article>
 </section>
 <section  id="2nd_section" class="main-section">
   <header>2nd Section</header>
@@ -57,16 +84,9 @@
   <code>5th code element</code>
   <li>5th list element</li>
 </section>
-
-  
-
-  
-  
 </main>
- 
-
- 
-
 </body> 
-
+<footer>
+  This is the footer
+</footer>
 </html> 
