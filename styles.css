@@ -12,12 +12,11 @@ hmtl, body {
      border-right: solid;
 }
  .nav-link {
+     font-family: cursive;
      text-decoration: none;
      list-style: none;
 }
- ul{
-     background-color: black;
-}
+
  .nav-link li{
      border-right: solid;
      display: block;
@@ -34,8 +33,9 @@ hmtl, body {
      background-color: gray;
      color: white;
 }
+
  li:hover{
-     color: blue;
+     color: black;
 }
  header{
      text-align: center;
@@ -52,6 +52,7 @@ hmtl, body {
      padding-left: 40px;
      padding-bottom: 90px;
      padding-top: 20px;
+     max-width: 900px;
 }
  blockquote{
      padding: 10px;
@@ -69,4 +70,17 @@ hmtl, body {
      width: 100%;
      height: 300px;
      background-color: black;
+     color: white;
 }
+
+#footer_div{
+ text-align: center;
+ padding-top: 15vh;
+ font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+ blockquote{
+  margin-left: 0px;
+ }
+} 
